@@ -36,7 +36,6 @@ public class AtiburcioTyler4 {
                 Svg svg = new Svg(Double.parseDouble(token.nextToken()), Double.parseDouble(token.nextToken()));
                 while (fileScanner.hasNext()) {
                     temp = fileScanner.next();
-                    //System.out.println(temp);
                     Shape shape = null;
                     switch (temp) {
                         case "line": {
@@ -128,7 +127,6 @@ public class AtiburcioTyler4 {
         private ArrayList<String> styles = new ArrayList<String>();
 
         public void addStyle(String key, String value) {
-            //System.out.println(key + " " + value);
             styles.add(key + ":" + value + ";");
         }
 
