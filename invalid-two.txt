@@ -1,0 +1,11 @@
+svg 300 300
+
+rect 5 5 290 290
+fill #f8f8f8
+end
+
+triangle 5 5 295 295
+stroke             #804040
+stroke-width       2
+stroke-dasharray   5,10
+end

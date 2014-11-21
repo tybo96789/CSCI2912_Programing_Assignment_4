@@ -1,0 +1,5 @@
+svg 300 300
+
+rect 5 5 290 five
+fill #f8f8f8
+end

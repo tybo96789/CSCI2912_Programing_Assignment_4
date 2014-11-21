@@ -1,0 +1,5 @@
+png 300 300
+
+rect 5 5 290 290
+fill #f8f8f8
+end
