@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-/**Programing Assignment 4
+/**Programming Assignment 4
  * Demonstrate an understanding of inheritance, polymorphism, and abstract base classes.
  *
  * Java console application that reads drawing commands from a text file and writes 
@@ -16,11 +16,6 @@ public class AtiburcioTyler4 {
     private static String fileName;
 
     public static void main(String[] args) {
-        mainHandler();
-
-    }
-
-    private static void mainHandler() {
         try {
             inputFile();
             readFile();
