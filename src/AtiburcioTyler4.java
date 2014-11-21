@@ -114,11 +114,11 @@ public class AtiburcioTyler4 {
             for (Shape s : shapes) {
                 s.renderAttributes(out);
                 out.print("style='");
-                for(String mod : s.styles ) out.print(mod);
-                out.print("'/>");
+                for(String mod : s.styles ) out.print(mod);                     //Print the styles that included for each shape
+                out.print("'/>");                                               //Close the tag
                 out.println();
             }
-            out.println("</svg>");
+            out.println("</svg>");                                              //Print closing svg tag
         }
 
     }
@@ -165,7 +165,7 @@ public class AtiburcioTyler4 {
         }
 
         @Override
-        void renderAttributes(PrintStream out) {
+        void renderAttributes(PrintStream out) { 
             out.print("<rect x='"+this.x +"' y='"+ this.y +"' height='"+this.height +"' width='"+ this.width+"' ");
         }
 
