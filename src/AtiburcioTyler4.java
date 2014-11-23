@@ -9,7 +9,10 @@ import java.util.StringTokenizer;
  *
  * Java console application that reads drawing commands from a text file and writes 
  * Scalable Vector Graphics (SVG) to Standard Output.
- * @author Tyler_Atiburcio
+ * 
+ * @author Atiburcio, Tyler
+ * @Assignment CSCI 2912 Asssignment 4
+ * @date 11/22/2014
  */
 public class AtiburcioTyler4 {
 
@@ -111,8 +114,8 @@ public class AtiburcioTyler4 {
         void render(PrintStream out) {
             out.println("<svg width='"+ this.width+"' height='"+this.height+"'>");
             for (Shape s : shapes) {
-                s.renderAttributes(out);
-                out.print("style='");
+                s.renderAttributes(out);                                        //Print the dimension of the shape 
+                out.print("style='");                                           //Print the style opening tag
                 for(String mod : s.styles ) out.print(mod);                     //Print the styles that included for each shape
                 out.print("'/>");                                               //Close the tag
                 out.println();
