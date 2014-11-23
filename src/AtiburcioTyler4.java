@@ -11,11 +11,7 @@ import java.util.StringTokenizer;
  * Scalable Vector Graphics (SVG) to Standard Output.
  * 
  * @author Atiburcio, Tyler
-<<<<<<< HEAD
  * @Assignment CSCI 2912 Assignment 4
-=======
- * @Assignment CSCI 2912 Asssignment 4
->>>>>>> origin/master
  * @date 11/22/2014
  */
 public class AtiburcioTyler4 {
